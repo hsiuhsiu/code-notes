@@ -6,13 +6,13 @@ emoji:
 ---
 
 In C++17
-```c++
+```C++
 auto p = std::remove_if(
     std::begin(a), std::end(a), [](const auto& e) { return e.seleted(); });
 a.erase(p, std::end(a))
 ```
 
-The complexity is $$O(n)$$
+The complexity is $O(n)$
 
 In C++20, we can do
 ```c++
