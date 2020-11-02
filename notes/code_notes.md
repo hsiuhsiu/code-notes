@@ -1,6 +1,8 @@
 ---
 title: How to generate and maintain this site
 tags:
+  - gatsby
+  - code-notes
 emoji:
 ---
 
@@ -22,7 +24,7 @@ The whole system consists of three parts
   - Added `"deploy": "gatsby build --prefix-paths && gh-pages -d public"` to `"scripts"` in `package.json`
   - Created a branch called `gh-pages`
   - `npm run deploy` will generate the website and check-in codes to the `gh-pages` branch automatically.
-5. In the GitHub webpage, go to the settings of the repository to let GitHub Pages to host the project page. Choose `gh-pages` branch and `/(root)` as the path. The code-notes webpage shows up in <username>.github.io/code-notes.
+5. In the GitHub webpage, go to the settings of the repository to let GitHub Pages to host the project page. Choose `gh-pages` branch and `/(root)` as the path. The code-notes webpage shows up in `<username>.github.io/code-notes.`
 
 ## How to write a new entry
 1. Add a markdown file under the `notes` directory. About the format, check an [example](https://github.com/mrmartineau/gatsby-starter-code-notes/blob/master/notes/example-note.md) or just copy from an existing one.
