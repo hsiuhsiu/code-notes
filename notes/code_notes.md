@@ -19,17 +19,18 @@ The whole system consists of three parts
 2. Start a new code-note project by `gatsby new code-notes https://github.com/MrMartineau/gatsby-starter-code-notes`
 3. The project is already a git repository. Link that to a GitHub repository. I named it `code-notes`.
 4. Follow the official instruction to generate the website and publish to GitHub Page. I specifically did
-  - **Within the repository**, install gh-pages. I did `npm install gh-pages --save-dev`
-  - Added `pathPrefix: "/code-notes",`(the repository name) to `module.exports` in the file `gatsby-config.js`
-  - Added `"deploy": "gatsby build --prefix-paths && gh-pages -d public"` to `"scripts"` in `package.json`
-  - Created a branch called `gh-pages`
-  - `npm run deploy` will generate the website and check-in codes to the `gh-pages` branch automatically.
+      - **Within the repository**, install gh-pages. I did `npm install gh-pages --save-dev`
+      - Added `pathPrefix: "/code-notes",`(the repository name) to `module.exports` in the file `gatsby-config.js`
+      - Added `"deploy": "gatsby build --prefix-paths && gh-pages -d public"` to `"scripts"` in `package.json`
+      - Created a branch called `gh-pages`
+      - `npm run deploy` will generate the website and check-in codes to the `gh-pages` branch automatically.
 5. In the GitHub webpage, go to the settings of the repository to let GitHub Pages to host the project page. Choose `gh-pages` branch and `/(root)` as the path. The code-notes webpage shows up in `<username>.github.io/code-notes.`
 
 ## How to write a new entry
-1. Add a markdown file under the `notes` directory. About the format, check an [example](https://github.com/mrmartineau/gatsby-starter-code-notes/blob/master/notes/example-note.md) or just copy from an existing one.
-2. `npm run deploy` to generate and publish.
-3. Version control the notes as your wish.
+1. Go to the master branch of the repository `code-notes`
+2. Add a markdown file under the `notes` directory. About the format, check an [example](https://github.com/mrmartineau/gatsby-starter-code-notes/blob/master/notes/example-note.md) or just copy from an existing one.
+3. `npm run deploy` to generate and publish. It will update the `gh-pages` branch.
+4. Version control the notes using the master branch.
 
 ## References
 

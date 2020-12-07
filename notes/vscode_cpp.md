@@ -23,3 +23,7 @@ emoji:
         "editor.tabSize": 2
     }
     ```
+
+- C++ formatter
+  - In setting, search `C_Cpp.clang_format_fallbackStyle`
+  - Change the value to `{ BasedOnStyle: Google, IndentWidth: 2 }` (The default one may be `Visual Studio`)
