@@ -3,6 +3,7 @@ title: C++ in VSCode
 tags:
   - c++
   - vscode
+  - env
 emoji:
 ---
 
