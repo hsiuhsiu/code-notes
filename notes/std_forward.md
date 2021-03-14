@@ -51,7 +51,7 @@ which is not surprising. But it is not we want if we'd like to have **perfect fo
 ```c++
 template <typename T_Cat>
 void callMeow(T_Cat &cat) {
-  cat.purr();
+  cat.meow();
 }
 ```
 
