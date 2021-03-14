@@ -26,6 +26,10 @@ The whole system consists of three parts
       - `npm run deploy` will generate the website and check-in codes to the `gh-pages` branch automatically.
 5. In the GitHub webpage, go to the settings of the repository to let GitHub Pages to host the project page. Choose `gh-pages` branch and `/(root)` as the path. The code-notes webpage shows up in `<username>.github.io/code-notes.`
 
+### In a new environment (unverified with ARM64)
+
+Do the Step 1 above, and then `npm install` in the repository.
+
 ## How to write a new entry
 1. Go to the master branch of the repository `code-notes`
 2. Add a markdown file under the `notes` directory. About the format, check an [example](https://github.com/mrmartineau/gatsby-starter-code-notes/blob/master/notes/example-note.md) or just copy from an existing one.
