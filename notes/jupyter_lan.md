@@ -14,7 +14,7 @@ emoji:
 
 - Use `Jupyter notebook password` to set a password. It will write the hash of the password to `jupyter_notebook_config.json` in `~/.jupyter`. We will use that as our default config.
 - More settings added to the json config:
-	- 	```json
+	  ```json
     "notebook_dir": "/Users/<username>/my/path",
     "ip": "xxx.lan"
     ```
